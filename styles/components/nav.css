@@ -1,0 +1,29 @@
+.nav a {
+  display: none;
+}
+.nav .nav-item {
+  color: #6c6c6c;
+  font-family: "Segoe WPN";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  padding: 0 10px;
+}
+.nav > img {
+  width: 58px;
+  height: 44px;
+  
+}
+@media (min-width: 960px) {
+  .nav a {
+    display: block;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav > img {
+    display: none;
+  }
+}

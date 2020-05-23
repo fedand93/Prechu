@@ -1,0 +1,245 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.section {
+  position: relative;
+}
+
+.section-foreground {
+  color: #fff;
+  background: #fff;
+}
+.section-background {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+.section-background > img {
+  height: 660px;
+}
+
+.section-overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: rgba(000, 000, 000, 0.6);
+  opacity: 0.85;
+}
+.section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.section-image > img {
+  max-width: 177px;
+  margin: 0 auto;
+}
+.section-hero {
+  padding: 20px 0;
+  position: relative;
+}
+.section-body {
+  padding: 15px 0;
+  background: #fff;
+}
+.section-hero-title {
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.section-hero-subtitle {
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+.section-shopping {
+  background: #fff;
+}
+.section-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section-logo a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.section-shopping-image > img {
+ max-width: 215px;
+ margin: 0 auto;
+}
+.section-shopping-title {
+  color: #6f7173;
+  font-family: "Segoe WPN";
+  font-size: 34px;
+  font-weight: 400;
+  text-align: center;
+}
+.section-shopping-subtitle {
+  color: #6f7173;
+  font-family: "Segoe WPN";
+  font-size: 25px;
+  font-weight: 400;
+}
+.section-shopping-description {
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 14px;
+  line-height: 23px;
+}
+.section-hero-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-content {
+  max-width: 453px;
+  margin: 0 auto;
+}
+.section-footer-title {
+  padding: 25px;
+  text-align: center;
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.section-shopping {
+  padding: 0 0 15px 0;
+}
+.section-footer {
+  border-top: 1px solid #e5e5e5;
+  background: #fff;
+}
+@media (min-width: 480px) {
+  .section-hero-subtitle {
+    font-size: 18px;
+  }
+  .section-hero-title {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .section-hero-content {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+@media (min-width: 640px) {
+  .section-hero-subtitle {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+  .section-hero-title {
+    font-size: 31px;
+  }
+  .section-shopping-title {
+    font-size: 42px;
+  }
+  .section-shopping-subtitle {
+    font-size: 34px;
+  }
+  .section-shopping-description {
+    font-size: 17px;
+   line-height: 36px;
+  }
+
+}
+@media (min-width: 960px) {
+  .section-hero-content {
+    height: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .section-shopping-image > img {
+    max-width: 371px;
+  }
+  .section-shopping-description {
+    font-size: 15px;
+    line-height: 36px;
+  }
+  .section-shopping-subtitle {
+    font-size: 26px;
+    margin: 0;
+  }
+  .section-content {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .section-body {
+    padding: 0 0 50px 0;
+  }
+  .section-logo img {
+    max-width: 178px;
+  }
+  .section-image > img {
+    max-width: 345px;
+  }
+  .section-shopping {
+    padding: 40px 0 60px 0;
+  }
+  .triangle {
+    background-image: url(../../images/triangle.png);
+    height: 10px;
+    margin-bottom: 40px;
+  }
+
+}
